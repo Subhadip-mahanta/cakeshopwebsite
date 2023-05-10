@@ -1,0 +1,222 @@
+
+#category{
+    
+    padding: 10px;
+    text-align: center;
+    margin-top: 30px;
+}
+#category h2{
+    font-family:'Courier New', Courier, monospace;
+}
+#divcc1{
+    display: block;
+}
+#divcc1 div{
+    margin: 10px;
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 10px 20px;
+    cursor: pointer;
+}
+
+#divcc1 div img{
+    height: 35vh;
+    width: 90%;
+    margin: 10px;
+    border-radius: 10px;
+}
+#divcc2{
+    display: block;
+}
+#divcc2 div{
+    margin: 10px;
+    background-color: whitesmoke;
+    padding: 10px;
+    border: 1px solid red;
+    border-radius: 10px 20px;
+    cursor: pointer;
+}
+#divcc2 div img{
+    height: 35vh;
+    width: 90%;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+
+/* about starts here */
+#AboutUs{
+    /* background-color: red; */
+    padding: 20px;
+    margin-top: 20px;
+    
+}
+#AboutUs h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    /* font-weight: bold; */
+    margin-bottom: 20px;
+}
+#AboutUs #p11{
+    font-size: 1.5rem;
+    margin-left: 10px;
+    color: red;
+     font-family: 'Courier New', Courier, monospace;
+}
+#AboutUs #p12{
+    text-align: justify;
+    margin-left: 10px;
+    /* color: red; */
+    
+}
+/* about ends here */
+
+#products{
+    /* background-color: red; */
+    padding: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+#productd1{
+    display: block;
+}
+#products h2{
+    font-family: 'Courier New', Courier, monospace
+}
+#productd1 div{
+     width: 95%;
+     margin-top: 20px;
+     background-color: whitesmoke;
+     border: 1px solid black;
+     margin-left: 5px;
+     padding: 20px;
+     border-radius: 10px;
+}
+
+#productd1 div img{
+     height: 150px;
+     width: 93%;
+    border-radius: 10px;
+}
+#productd1 div p{
+    color: red;
+}
+
+/* product end here */
+
+#why{
+    margin-top: 10px;
+    background-color: whitesmoke;
+    padding: 10px;
+    text-align: center;
+}
+#wd1{
+    margin-top: 20px;
+    display: block;
+    justify-content: center;
+}
+#wd11{
+    background-color: whitesmoke;
+    border: 1px solid red;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    margin: 10px;
+    border-radius: 10px 50px;
+    margin-right: 30px;
+    cursor: pointer;
+}
+#wd11 p{
+    text-align: justify;
+}
+#wd12{
+    background-color: whitesmoke;
+    border: 1px solid red;
+    width: 90%;
+    padding: 10px;
+    display: flex;
+    margin: 10px;
+    border-radius: 10px 50px;
+    cursor: pointer;
+}
+#why img{
+    height: 47px;
+    border-radius: 100px;
+}
+
+/* gallery starts here */
+#Gallery{
+    /* background-color: red; */
+    padding: 5px;
+    text-align: center;
+    background-color: whitesmoke;
+}
+#Gallery h2{
+    font-family: 'Courier New', Courier, monospace;
+}
+#Gallery div{
+    margin-top: 10px;
+  
+   display: block;
+    justify-content: center;
+}
+#Gallery div img{
+    height: 200px;
+    width: 350px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    border-radius: 30px 10px;
+    border: 1px solid red;
+    box-shadow: 10px 20px 10px rgb(123, 97, 97);
+}
+
+/* gallery ends here */
+/* contact starts here */
+#contactUs{
+    margin-top: 10px;
+    background-color: whitesmoke;
+    padding: 3px;
+ }
+ #contactUs h2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+ }
+ #contactUs form{
+    display: block;
+    margin: 0px auto;
+    margin-left: 20px;
+    margin-top: 10px;
+ }
+ #contactUs div{
+    margin-top: 5px;
+ }
+ #contactUs input[type='text']{
+    width: 200px;
+    margin-left: 10px;
+ }
+ #contactUs input[type='email']{
+    width: 205px;
+    margin-left: 10px;
+ }
+ #contactUs input[type='tel']{
+    width: 200px;
+    margin-left: 2px;
+ }
+ #contactUs textarea{
+    margin-left: 13px;
+    width: 250px;
+    border: 1px solid black;
+    resize: none;
+ }
+ #contactUs input[type='submit']{
+    /* background-color: blue; */
+    display: block;
+    margin-left: 10px;
+    width: 250px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    
+ }
+/* contact ends here */
